@@ -1,0 +1,5 @@
+The file uploaded doesnot work when run on Google Colab, The problem was in the Encoding .
+In the first line
+File = open("HarryPotterAndTheSorcerersStone.txt",'r', encoding = 'utf-8')                   
+Just writing encoding = 'utf-8' solves the problem and correct output is displayed
+I am not reuploading the .ipynb file as the deadline is passed,but just wanted to clarify.
